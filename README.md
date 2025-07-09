@@ -22,8 +22,7 @@ The application uses comprehensive mock data to simulate the Tesla Factory API:
 
 ### Authentication
 
-- **Demo User**: `demo@tesla.com` / `demo123`
-- **Admin User**: `admin@tesla.com` / `admin123`
+- **Demo User**: `demouser` / `demo123`
 
 ### Mock Things (TG1 format)
 
@@ -78,7 +77,7 @@ The application uses comprehensive mock data to simulate the Tesla Factory API:
 
 4. **Login**
    Use the mock credentials:
-   - Email: `demo@tesla.com`
+   - Email: `demouser`
    - Password: `demo123`
 
 ## Usage
@@ -178,12 +177,3 @@ This version has been stripped down for portfolio use:
 ## License
 
 This project is for portfolio demonstration purposes only.
-
-## Contributing
-
-To start contributing, make a fork of the [Master Branch](https://github.tesla.com/gfnvnpi/npi-website) and make your changes to the new branch. When you are ready to submit the change make a pull request to the main branch making sure to complete the PR description.
-
-- Once the changes on your branch have been tested, the changes been confirmed stable, and have the PR is approved, the changes will be merged to the main branch.
-  - If the description is not clear and/or complete the PR will be closed.
-- Upon making a PR, tests will be ran to confirm no functionality has been broken. You can run these tests locally before making your PR by running `pnpm run test`.
-- Before PRs are merged they must be approved by atleast 1 admin and must pass all tests.
