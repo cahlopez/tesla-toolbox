@@ -86,8 +86,6 @@ export async function GET(
 
     const flows = getFlowOptionsForProcess(validatedProcessName);
 
-    console.log("flows", flows);
-
     return NextResponse.json({
       message: "Successfully fetched flows",
       results: {

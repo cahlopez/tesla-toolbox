@@ -178,8 +178,6 @@ export const getFlowStepOptionsForFlow = (
   processName: string,
   flowName: string,
 ) => {
-  console.log("processName", processName);
-  console.log("flowName", flowName);
   const process = Object.values(MOCK_PROCESSES).find(
     (process) => process.name === processName,
   );
